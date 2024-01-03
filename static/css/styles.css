@@ -1,0 +1,90 @@
+.bgnavbar{
+    background-color: rgb(44, 44, 44);
+    font-size: 30px;
+    height: 100px;
+}
+.navbartext{
+    justify-content: space-between;
+    display: flex; 
+    padding-top: 30px;
+}
+.homeadmin{
+    color: rgb(255, 255, 255);
+    text-decoration: none; 
+    margin-right: 25px; 
+}
+.homeadmin a{
+    border: solid 2px rgb(245, 245, 245);
+    color: #FFF;
+}
+.homeadmin:hover{
+    color: rgb(49, 156, 255);
+    text-decoration: none; 
+    margin-right: 20px; 
+}
+.TaskManager{
+    color: rgb(49, 156, 255);
+    text-decoration: none; 
+    font-weight: 700;
+    padding-left: 15px;
+}
+
+.footertext{
+    color: #FFF;
+}
+
+.addbtn{
+    background-color: rgb(49, 156, 255);
+    height: 40px;
+    color: #FFF;
+    text-decoration: none;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin-top: 10px;
+    margin-bottom: 10px;
+   
+}
+
+.Deletebtn{
+    background-color: rgb(255, 34, 27);
+    height: 40px;
+    color: #FFF;
+    text-decoration: none;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+
+.form{
+    border: solid 2px rgb(48, 48, 48);
+    border-radius: 0px 0px 10px 10px;
+    padding: 2%;
+}
+
+.form img{
+    height: 150px;
+    width: 250px;
+    border-radius: 15px;
+    margin: 10px;
+    margin-right: 40px;
+    margin-bottom: 50px;
+    object-fit: cover;
+}
+  
+ 
+#deletephoto{
+    position: absolute;
+    background-color: rgb(255, 255, 255);
+    color: #ff0000;
+    border-radius: 5px;
+    height: 30px;
+    width: 102px;
+    padding-left: 10px;
+    padding-top: 2px;
+    text-decoration: none;
+    margin-top: 120px;
+    margin-left: -155px;
+}

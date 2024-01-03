@@ -3,6 +3,7 @@
         <div class="navbartext" >
             <a class="TaskManager">Task Manager</a>
             <div>    
+                <a class="homeadmin" href="http://127.0.0.1:8000/tasks/api/v1/tasks/1/" target="_blank">API</a>
                        <a class="homeadmin" href="{% url 'task_list' %}">Home</a>
                     {% if user.is_authenticated or user.is_staff %}
                         <a class="homeadmin" href="{% url 'admin:index' %}">Admin</a>
