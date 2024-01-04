@@ -29,9 +29,13 @@
     </thead>
 
     <tbody>
+        {% if user.is_authenticated or user.is_staff %}
+        
+      
         {% for task in tasks %}
         <tr>
             <td>
+                
                 {% if task.photos.all %}
                 <img src="{{ task.photos.all.first.image.url }}" width="50" />
                 {% endif %}
@@ -51,6 +55,7 @@
             <td colspan="6">No tasks found.</td>
         </tr>
         {% endfor %}
+        {% endif %}
     </tbody>
 </table>
 
