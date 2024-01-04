@@ -1,6 +1,6 @@
 <div align="center">
  
- <img src="https://github.com/Zaeed-Mahmud/Task-Manager/assets/146333823/a581b178-a2cf-449a-a5c5-8fdb04d17896" alt="Logo" width="80" height="80">
+ <img src="https://github.com/Zaeed-Mahmud/Task-Manager/assets/146333823/a581b178-a2cf-449a-a5c5-8fdb04d17896" alt="Logo"  height="80">
  
 <h1>Task Manager Project</h1>
 A Project in Python-Django Task Manager with REST API 
@@ -94,14 +94,14 @@ pip install -r requirements.txt
 ```bash
 python.exe -m pip install --upgrade pip
 ```
-- Migrations (optional)
+- Migrations
 ```bash
 python manage.py makemigrations
 ```
 
 - Migrate
 ```bash
-python manage.py migrate  (optional)
+python manage.py migrate
 ```
 
 - Migrate
@@ -119,19 +119,34 @@ python manage.py runserver
 
 -   To access the admin panel, go to http://127.0.0.1:8000/admin/
 
--   Login with the following credentials:
+-   Login with the admin panel (required to view task list)
+    
+    - First user 
 
-       -   Username: `zaeed_mahmud`
-       -   Password: `x47cr`
+          Username: `zaeed_mahmud`         
+          Password: `x47cr`
 
--   If don't work, create a superuser by running the following command
+    
+    - Second user
+
+          Username: `shima_akter_rine`
+          Password: `pgpg`
+          
+    - Third use
+
+          Username: `zibon`
+          Password: `za`
+
+    
+If don't work, create a superuser by running the following command
+
 
 ```bash
 python manage.py createsuperuser
 ```
 
--   Enter the username, email, and password
--  now you can login to the admin panel
+- Enter the username, email, and password
+- now you can login to the admin panel
 
 ## API
  Endpoint : http://127.0.0.1:8000/tasks/api/v1/tasks/2/
