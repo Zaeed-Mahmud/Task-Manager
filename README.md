@@ -1,5 +1,15 @@
+<div align="center">
+ 
+ <img src="https://github.com/Zaeed-Mahmud/Task-Manager/assets/146333823/a581b178-a2cf-449a-a5c5-8fdb04d17896" alt="Logo" width="80" height="80">
+ 
+<h1>Task Manager Project</h1>
+A Project in Python-Django Task Manager with REST API 
+<a herf="https://github.com/Zaeed-Mahmud/Task-Manager/assets/146333823/a581b178-a2cf-449a-a5c5-8fdb04d17896" </a>
+ 
 
-# Task Manager with Django
+
+
+</div>
 
 ## Built With
 
