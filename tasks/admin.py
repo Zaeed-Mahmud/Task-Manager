@@ -1,13 +1,14 @@
 from django.db.models import Case, When, IntegerField
 from django.contrib import admin
 from .models import Task, Photo
+from import_export.admin import ImportExportModelAdmin
 
 
 class PhotoInline(admin.TabularInline):
     model = Photo
 
 
-class TaskAdmin(admin.ModelAdmin):
+class TaskAdmin(ImportExportModelAdmin):
     inlines = [
         PhotoInline,
     ]
@@ -23,7 +24,7 @@ class TaskAdmin(admin.ModelAdmin):
     ),)
 
 
-class PhotoAdmin(admin.ModelAdmin):
+class PhotoAdmin(ImportExportModelAdmin):
     list_display = ('task', 'image')
 
 

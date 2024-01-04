@@ -1,0 +1,550 @@
+[
+    {
+        "model": "auth.user",
+        "pk": 1,
+        "fields": {
+            "password": "pbkdf2_sha256$720000$Yjtsf5q6lcD89kU9r1c1YD$CjaHU/vKYu+PqfLWCLGdapeylWx43aeSEpVzCCA4dNQ=",
+            "last_login": "2024-01-03 19:37:48.483037+06",
+            "is_superuser": true,
+            "username": "zaeed_mahmud",
+            "first_name": "",
+            "last_name": "",
+            "email": "zaeedmahmud@gmail.com",
+            "is_staff": true,
+            "is_active": true,
+            "date_joined": "2024-01-03 19:31:24.834904+06",
+            "groups": [],
+            "user_permissions": []
+        }
+    },
+    {
+        "model": "auth.user",
+        "pk": 2,
+        "fields": {
+            "password": "pbkdf2_sha256$720000$252VNEeEscSO3NTcDG9cBq$rNVjI0DF04HalYUoHiKhuSIz2xVCcUzj97Yt+btbR5o=",
+            "last_login": "2024-01-03 22:17:45.657171+06",
+            "is_superuser": true,
+            "username": "shima_akter_rine",
+            "first_name": "",
+            "last_name": "",
+            "email": "shimaakterrine@gmail.com",
+            "is_staff": true,
+            "is_active": true,
+            "date_joined": "2024-01-03 21:48:11.351062+06",
+            "groups": [],
+            "user_permissions": []
+        }
+    },
+    {
+        "model": "auth.user",
+        "pk": 3,
+        "fields": {
+            "password": "pbkdf2_sha256$720000$FZLgcRsCRq3zNKnbqCsSr9$t/CiITBtO7S19N6JL6K5xY79q6ID4J9ZO8MnyuUKAuI=",
+            "last_login": "2024-01-03 21:51:44.896628+06",
+            "is_superuser": true,
+            "username": "zibon",
+            "first_name": "",
+            "last_name": "",
+            "email": "zibon@gmail.com",
+            "is_staff": true,
+            "is_active": true,
+            "date_joined": "2024-01-03 21:50:25.933932+06",
+            "groups": [],
+            "user_permissions": []
+        }
+    },
+    {
+        "model": "tasks.task",
+        "pk": 15,
+        "fields": {
+        "title": "Logo Design Project",
+        "description": "Create impactful logos that reflect brand identity and values; apply design principles to develop memorable and visually appealing logos for various clients or brands.",
+        "creation_date": "2024-01-03 15:58:03",
+        "due_date": "2024-01-04 21:57:00",
+        "priority": "High",
+        "is_complete": "0",
+        "user": 3
+         }
+    },
+    {
+        "model": "tasks.task",
+        "pk": 13,
+        "fields": {
+        "title": "Higher Self Med Thumbnail",
+        "description": "design Higher Self Med Thumbnail",
+        "creation_date": "2024-01-03 15:52:53",
+        "due_date": "2024-01-04 21:52:00",
+        "priority": "High",
+        "is_complete": "1",
+        "user": 2
+        }
+    },
+    {
+        "model": "tasks.task",
+        "pk": 10,
+        "fields": {
+        "title": "Web Technology Quiz",
+        "description": "Assess understanding of web development technologies, including HTML, CSS, JavaScript, and server-side scripting through a focused quiz.",
+        "creation_date": "2024-01-03 15:33:57",
+        "due_date": "2024-02-04 21:33:00",
+        "priority": "High",
+        "is_complete": "0",
+        "user": 1
+        }
+    },
+    {
+        "model": "tasks.task",
+        "pk": 7,
+        "fields": {
+        "title": "Operating Systems Final Exam",
+        "description": "Assess knowledge of operating system concepts, processes, memory management, and file systems in a comprehensive final examination.",
+        "creation_date": "2024-01-03 15:27:15",
+        "due_date": "2024-01-11 21:27:00",
+        "priority": "High",
+        "is_complete": "0",
+        "user": 1
+        }
+    },
+    {
+        "model": "tasks.task",
+        "pk": 5,
+        "fields": {
+        "title": "Algorithms Lab",
+        "description": "Demonstrate proficiency in algorithm design and analysis by solving complex problems and evaluating algorithmic efficiency in a lab final.",
+        "creation_date": "2024-01-03 15:22:16",
+        "due_date": "2024-01-07 16:22:00",
+        "priority": "High",
+        "is_complete": "0",
+        "user": 1
+        }
+    },
+    {
+        "model": "tasks.task",
+        "pk": 4,
+        "fields": {
+        "title": "Linear Algebra Final Exam",
+        "description": "Test proficiency in mathematical concepts essential for computer graphics and algorithm development in a comprehensive final examination.",
+        "creation_date": "2024-01-03 15:18:49",
+        "due_date": "2024-01-06 15:18:00",
+        "priority": "High",
+        "is_complete": "0",
+        "user": 1
+        }
+    },
+    {
+        "model": "tasks.task",
+        "pk": 3,
+        "fields": {
+        "title": "Object Oriented Programming Quiz",
+        "description": "Assess understanding of object-oriented principles like encapsulation, inheritance, and polymorphism through a focused quiz.",
+        "creation_date": "2024-01-03 15:16:45",
+        "due_date": "2024-01-22 04:16:00",
+        "priority": "High",
+        "is_complete": "0",
+        "user": 1
+        }
+    },
+    {
+        "model": "tasks.task",
+        "pk": 2,
+        "fields": {
+        "title": "Structured Programming Exam",
+        "description": "Evaluate foundational coding skills and understanding of structured programming concepts through a comprehensive examination",
+        "creation_date": "2024-01-03 15:14:39",
+        "due_date": "2024-01-05 09:14:00",
+        "priority": "High",
+        "is_complete": "0",
+        "user": 1
+        }
+    },
+    {
+        "model": "tasks.task",
+        "pk": 16,
+        "fields": {
+        "title": "Logo Design",
+        "description": "design some gaming logo for YouTube channel. \r\n1 sweetie kitty\r\n2 cobra",
+        "creation_date": "2024-01-03 16:20:11",
+        "due_date": "2024-01-05 09:39:52",
+        "priority": "Medium",
+        "is_complete": "0",
+        "user": 2
+        }
+    },
+    {
+        "model": "tasks.task",
+        "pk": 12,
+        "fields": {
+        "title": "Digital Electronics Lab",
+        "description": "Design, simulate, and analyze digital circuits and systems; complete hands-on tasks related to logic gates, flip-flops, and sequential circuits.",
+        "creation_date": "2024-01-03 15:40:30",
+        "due_date": "2024-01-20 21:40:00",
+        "priority": "Medium",
+        "is_complete": "0",
+        "user": 1
+        }
+    },
+    {
+        "model": "tasks.task",
+        "pk": 11,
+        "fields": {
+        "title": "Computer Security Exam",
+        "description": "Evaluate knowledge of cybersecurity principles, threats, vulnerabilities, encryption techniques, and secure coding practices in a comprehensive examination.",
+        "creation_date": "2024-01-03 15:36:24",
+        "due_date": "2024-02-07 21:36:00",
+        "priority": "Medium",
+        "is_complete": "0",
+        "user": 1
+        }
+    },
+    {
+        "model": "tasks.task",
+        "pk": 9,
+        "fields": {
+        "title": "Smart Phone Application Development Assignment",
+        "description": "Design, develop, and deploy mobile applications for various platforms using modern frameworks, tools, and user-friendly interfaces.",
+        "creation_date": "2024-01-03 15:31:56",
+        "due_date": "2024-01-05 21:05:00",
+        "priority": "Medium",
+        "is_complete": "1",
+        "user": 1
+        }
+    },
+    {
+        "model": "tasks.task",
+        "pk": 8,
+        "fields": {
+        "title": "Artificial Intelligence Project",
+        "description": "Develop an intelligent system or application using AI algorithms, machine learning techniques, neural networks, or natural language processing.",
+        "creation_date": "2024-01-03 15:28:30",
+        "due_date": "2024-01-14 21:28:00",
+        "priority": "Medium",
+        "is_complete": "0",
+        "user": 1
+        }
+    },
+    {
+        "model": "tasks.task",
+        "pk": 6,
+        "fields": {
+        "title": "Computer Organization & Architecture quiz",
+        "description": "Evaluate knowledge of computer hardware-software interface, CPU design, memory hierarchy, and assembly language concepts in a detailed examination.",
+        "creation_date": "2024-01-03 15:25:06",
+        "due_date": "2024-01-09 22:24:00",
+        "priority": "Medium",
+        "is_complete": "0",
+        "user": 1
+        }
+    },
+    {   "model": "tasks.task",
+        "pk": 17,
+        "fields": {
+        "title": "Structured Programming Exam",
+        "description": "quiz",
+        "creation_date": "2024-01-04 05:43:37",
+        "due_date": "2024-01-03 11:43:00",
+        "priority": "Low",
+        "is_complete": "1",
+        "user": 1
+        }
+        
+    },
+    {
+        "model": "tasks.task",
+        "pk": 14,
+        "fields": {
+        "title": "design thumbnile",
+        "description": "1 How to Become Spritiually Awakened\r\n2 Emotional Healing thumbnile",
+        "creation_date": "2024-01-03 15:55:54",
+        "due_date": "2024-01-02 21:55:00",
+        "priority": "Low",
+        "is_complete": "1",
+        "user": 3
+        }
+    },
+
+
+
+    {
+        "model": "tasks.photo",
+        "pk": 42,
+        "fields": {
+        "task": 9,
+        "image": "photos/1_10_yQoArEH.webp"
+        }
+    },
+    {
+        "model": "tasks.photo",
+        "pk": 41,
+        "fields": {
+        "task": 9,
+        "image": "photos/1_3_Ox0XtSd.png"
+        }
+    },
+    {
+        "model": "tasks.photo",
+        "pk": 40,
+        "fields": {
+        "task": 17,
+        "image": "photos/1_7_dQoMPgt.png"
+        }
+    },
+    {
+        "model": "tasks.photo",
+        "pk": 39,
+        "fields": {
+        "task": 14,
+        "image": "photos/Emotional_Healing_thumbnile_Uw9ejgT.png"
+        }
+    
+    },
+    {
+        "model": "tasks.photo",
+        "pk": 38,
+        "fields": {
+        "task": 16,
+        "image": "photos/sweetiekitty_6.jpg"
+        }
+
+    
+    },
+    {
+        "model": "tasks.photo",
+        "pk": 35,
+        "fields": {
+        "task": 16,
+        "image": "photos/1_7.jpg"
+        }
+    },
+    {
+        "model": "tasks.photo",
+        "pk": 34,
+        "fields": {
+        "task": 16,
+        "image": "photos/1_4_R8GZ3LE.jpg"
+        }
+    },
+    {
+        "model": "tasks.photo",
+        "pk": 33,
+        "fields": {
+        "task": 15,
+        "image": "photos/1_6_ugN5sf8.jpg"
+        }
+    },
+    {
+        "model": "tasks.photo",
+        "pk": 32,
+        "fields": {
+        "task": 15,
+        "image": "photos/1_8.jpg"
+        }
+    },
+    {
+        "model": "tasks.photo",
+        "pk": 30,
+        "fields": {
+        "task": 14,
+        "image": "photos/How_to_Become_Spritiually_Awakened_8l0rFuC.jpg"
+        }
+    },
+    {
+        "model": "tasks.photo",
+        "pk": 27,
+        "fields": {
+        "task": 13,
+        "image": "photos/Higher_Self_Med_Thumbnail.jpg"
+        }
+    },
+    {
+        "model": "tasks.photo",
+        "pk": 26,
+        "fields": {
+        "task": 12,
+        "image": "photos/1_26.jpg"
+        }
+    },
+    {
+        "model": "tasks.photo",
+        "pk": 25,
+        "fields": {
+        "task": 11,
+        "image": "photos/1_32.jpg"
+        }
+    },
+    {
+        "model": "tasks.photo",
+        "pk": 24,
+        "fields": {
+        "task": 11,
+        "image": "photos/1_11.webp"
+        }
+    },
+    {
+        "model": "tasks.photo",
+        "pk": 23,
+        "fields": {
+        "task": 11,
+        "image": "photos/1_2.webp"
+        }
+    },
+    {
+        "model": "tasks.photo",
+        "pk": 22,
+        "fields": {
+        "task": 10,
+        "image": "photos/1_11.jpg"
+        }
+    },
+    {
+        "model": "tasks.photo",
+        "pk": 21,
+        "fields": {
+        "task": 10,
+        "image": "photos/1_33.jpg"
+        }
+    },
+    {
+        "model": "tasks.photo",
+        "pk": 20,
+        "fields": {
+        "task": 9,
+        "image": "photos/1_9.webp"
+        }
+    },
+    {
+        "model": "tasks.photo",
+        "pk": 19,
+        "fields": {
+        "task": 9,
+        "image": "photos/1_4.webp"
+        }
+    },
+    {
+        "model": "tasks.photo",
+        "pk": 18,
+        "fields": {
+        "task": 9,
+        "image": "photos/1_17.jpg"
+        }
+    },
+    {
+        "model": "tasks.photo",
+        "pk": 17,
+        "fields": {
+        "task": 9,
+        "image": "photos/1_8.png"
+        }
+    },
+    {
+        "model": "tasks.photo",
+        "pk": 16,
+        "fields": {
+        "task": 8,
+        "image": "photos/1_21.jpg"
+        }
+    },
+    {
+        "model": "tasks.photo",
+        "pk": 15,
+        "fields": {
+        "task": 8,
+        "image": "photos/1_5.webp"
+        }
+    },
+    {
+        "model": "tasks.photo",
+        "pk": 14,
+        "fields": {
+        "task": 7,
+        "image": "photos/1_22.jpg"
+        }
+    },
+    {
+        "model": "tasks.photo",
+        "pk": 13,
+        "fields": {
+        "task": 7,
+        "image": "photos/1_4.jpg"
+        }
+    },
+    {
+        "model": "tasks.photo",
+        "pk": 12,
+        "fields": {
+        "task": 6,
+        "image": "photos/1_10.webp"
+        }
+    },
+    {
+        "model": "tasks.photo",
+        "pk": 11,
+        "fields": {
+        "task": 5,
+        "image": "photos/1_27.jpg"
+        }
+    },
+    {
+        "model": "tasks.photo",
+        "pk": 10,
+        "fields": {
+        "task": 5,
+        "image": "photos/1_3.jpg"
+        }
+    },
+    {
+        "model": "tasks.photo",
+        "pk": 9,
+        "fields": {
+        "task": 5,
+        "image": "photos/1_28.jpg"
+        }
+    },
+    {
+        "model": "tasks.photo",
+        "pk": 7,
+        "fields": {
+        "task": 4,
+        "image": "photos/1_2.jpg"
+        }
+    },
+    {
+        "model": "tasks.photo",
+        "pk": 6,
+        "fields": {
+        "task": 3,
+        "image": "photos/1_13.jpg"
+        }
+    },
+    {
+        "model": "tasks.photo",
+        "pk": 5,
+        "fields": {
+        "task": 3,
+        "image": "photos/1_25.jpg"
+        }
+    },
+    {
+        "model": "tasks.photo",
+        "pk": 4,
+        "fields": {
+        "task": 2,
+        "image": "photos/1_3.png"
+        }
+    },
+    {
+        "model": "tasks.photo",
+        "pk": 3,
+        "fields": {
+        "task": 2,
+        "image": "photos/1_3.webp"
+        }
+    },
+    {
+        "model": "tasks.photo",
+        "pk": 2,
+        "fields": {
+        "task": 2,
+        "image": "photos/1_7.png"
+        }
+    }
+]
