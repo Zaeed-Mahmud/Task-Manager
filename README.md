@@ -119,19 +119,19 @@ python manage.py runserver
 
 -   To access the admin panel, go to http://127.0.0.1:8000/admin/
 
--   Login with the following credentials:
+<h4>  Login with the admin panel (required to view task list) </h4>
     
-    Use one
+    First user 
     
       -   Username: `zaeed_mahmud`
       -   Password: `x47cr`
     
-    Use tow
+    Second user
  
       -   Username: `shima_akter_rine`
       -   Password: `pgpg`
   
-    Use Three
+    Third use
 
       -   Username: `zibon`
       -   Password: `za`
