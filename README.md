@@ -1,5 +1,9 @@
+<div align="center">
+<h1>Task Manager Project</h1>
+A Project in Python-Django Task Manager with REST API 
+<a height="50" herf="
+![Tasks](https://github.com/Zaeed-Mahmud/Task-Manager/assets/146333823/a581b178-a2cf-449a-a5c5-8fdb04d17896)" </a>
 
-# Task Manager with Django
 
 ## Built With
 
