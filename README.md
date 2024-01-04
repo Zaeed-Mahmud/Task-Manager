@@ -94,14 +94,14 @@ pip install -r requirements.txt
 ```bash
 python.exe -m pip install --upgrade pip
 ```
-- Migrations (optional)
+- Migrations
 ```bash
 python manage.py makemigrations
 ```
 
 - Migrate
 ```bash
-python manage.py migrate  (optional)
+python manage.py migrate
 ```
 
 - Migrate
