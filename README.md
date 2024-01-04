@@ -1,6 +1,6 @@
 <div align="center">
  
- <img src="https://github.com/Zaeed-Mahmud/Task-Manager/assets/146333823/a581b178-a2cf-449a-a5c5-8fdb04d17896" alt="Logo" width="80" height="80">
+ <img src="https://github.com/Zaeed-Mahmud/Task-Manager/assets/146333823/a581b178-a2cf-449a-a5c5-8fdb04d17896" alt="Logo"  height="80">
  
 <h1>Task Manager Project</h1>
 A Project in Python-Django Task Manager with REST API 
@@ -120,9 +120,21 @@ python manage.py runserver
 -   To access the admin panel, go to http://127.0.0.1:8000/admin/
 
 -   Login with the following credentials:
+    
+    Use one
+    
+      -   Username: `zaeed_mahmud`
+      -   Password: `x47cr`
+    
+    Use tow
+ 
+      -   Username: `shima_akter_rine`
+      -   Password: `pgpg`
+  
+    Use Three
 
-       -   Username: `zaeed_mahmud`
-       -   Password: `x47cr`
+      -   Username: `zibon`
+      -   Password: `za`
 
 -   If don't work, create a superuser by running the following command
 
