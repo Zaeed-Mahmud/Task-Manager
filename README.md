@@ -104,9 +104,9 @@ python manage.py makemigrations
 python manage.py migrate
 ```
 
-- Migrate
+- Load json data 
 ```bash
-python manage.py migrate
+python manage.py loaddata data.json
 ```
 
 - Finally run the server
