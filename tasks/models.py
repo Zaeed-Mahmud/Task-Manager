@@ -2,12 +2,6 @@ from typing import Any
 from django.db import models
 from django.urls import reverse
 from django.contrib.auth import get_user_model
-from django.core.files import File
-from PIL import Image
-from django.dispatch import receiver
-from django.db.models.signals import post_delete
-from django.conf import settings
-
 
 User = get_user_model()
 
