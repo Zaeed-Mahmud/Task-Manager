@@ -119,31 +119,34 @@ python manage.py runserver
 
 -   To access the admin panel, go to http://127.0.0.1:8000/admin/
 
-<h4>  Login with the admin panel (required to view task list) </h4>
+-   Login with the admin panel (required to view task list)
     
-    First user 
-    
-      -   Username: `zaeed_mahmud`
-      -   Password: `x47cr`
-    
-    Second user
- 
-      -   Username: `shima_akter_rine`
-      -   Password: `pgpg`
-  
-    Third use
+    - First user 
 
-      -   Username: `zibon`
-      -   Password: `za`
+          Username: `zaeed_mahmud`         
+          Password: `x47cr`
 
--   If don't work, create a superuser by running the following command
+    
+    - Second user
+
+          Username: `shima_akter_rine`
+          Password: `pgpg`
+          
+    - Third use
+
+          Username: `zibon`
+          Password: `za`
+
+    
+If don't work, create a superuser by running the following command
+
 
 ```bash
 python manage.py createsuperuser
 ```
 
--   Enter the username, email, and password
--  now you can login to the admin panel
+- Enter the username, email, and password
+- now you can login to the admin panel
 
 ## API
  Endpoint : http://127.0.0.1:8000/tasks/api/v1/tasks/2/
